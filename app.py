@@ -2,12 +2,7 @@ import streamlit as st
 import pandas as pd
 from datetime import datetime
 from openai import OpenAI
-import time
 from groq import Groq
-import speech_recognition as sr
-from audio_recorder_streamlit import audio_recorder
-import io
-import wave
 import numpy as np
 STORE_INFO = """
 Indeify is an ecommerce store specializing in handicrafts. We offer a unique selection of handcrafted items 
